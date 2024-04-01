@@ -17,7 +17,7 @@ HOST = "smtp-mail.outlook.com"
 PORT = 587
 
 FROM_EMAIL = "test@gmail.com" #Enter your email here
-TO_EMAIL = "test@gmail.com" #Enter sender email
+TO_EMAIL = "test@gmail.com" #Enter sender email here
 PASSWORD = "********" #Enter Your password here
 print("Sending Email........")
 MESSAGE = f"""Subject: Your OTP is {result}
