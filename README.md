@@ -1,2 +1,3 @@
 # OTP_service
-I develop this python script to give otp through Mail 
+I develop this Python script to give OTP through Mail 
+In this program, i use SMTP Protocol to send Email 
