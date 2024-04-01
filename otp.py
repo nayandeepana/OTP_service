@@ -16,9 +16,9 @@ result=' '.join(map(str, otp))
 HOST = "smtp-mail.outlook.com"
 PORT = 587
 
-FROM_EMAIL = "nayandeep06@gmail.com"
-TO_EMAIL = "nayandeep06@gmail.com"
-PASSWORD = "Anand@2812"
+FROM_EMAIL = "test@gmail.com" #Enter your email here
+TO_EMAIL = "test@gmail.com" #Enter sender email
+PASSWORD = "********" #Enter Your password here
 print("Sending Email........")
 MESSAGE = f"""Subject: Your OTP is {result}
 This is a test mail 
